@@ -1,7 +1,21 @@
 baseurl: /yuhuashang.github-io
 theme: jekyll-theme-midnight
+collections:
+  authors:
+    output: true
+
 defaults:
   - scope:
-      path: "assets/img"
+      path: ""
+      type: "authors"
     values:
-      image: true
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

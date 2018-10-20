@@ -32,7 +32,7 @@ title: 我的第一篇文章
 
 
 ---
-city: San Francisco
+city: Beijing City
 ---
 <p>{{ layout.city }}</p>
 
