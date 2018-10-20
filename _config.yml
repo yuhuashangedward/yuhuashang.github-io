@@ -1,8 +1,8 @@
 baseurl: /yuhuashang.github-io
 theme: jekyll-theme-midnight
-collections:
-  authors:
-    output: true
+# collections:
+#   authors:
+#     output: true
 
 # defaults:
 #   - scope:
