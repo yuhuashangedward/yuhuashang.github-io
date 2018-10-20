@@ -28,3 +28,12 @@ title: 我的第一篇文章
 这里是第三部分的内容
 
 {{ page.date|date_to_string }}
+
+
+
+---
+city: San Francisco
+---
+<p>{{ layout.city }}</p>
+
+{{ content }}
