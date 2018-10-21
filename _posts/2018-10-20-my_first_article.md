@@ -2,7 +2,7 @@
 title: 我的第一篇文章
 ---
 
-<!-- # {{ page.title }} -->
+# {{ page.title }} 
 
 ## 目录
 + [什么篇](#partI)
