@@ -53,7 +53,7 @@ title: 我的第一篇文章
 
 
 ---
-City: Beijing
+city: Beijing
 ---
 <p>{{ layout.city }}</p>
 
